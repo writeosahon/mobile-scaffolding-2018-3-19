@@ -1,0 +1,9 @@
+
+/** STYLE FOR PARSLEY VALIDATION LIBRARY **/
+.parsley-errors-list {
+    display: none !important;
+}
+/** STYLE FOR VALIDATION TOOLTIP (HINT.CSS) **/
+[data-hint]:after {
+    font-size: 0.75em !important;
+}
