@@ -46,12 +46,13 @@ SystemJS.config({
 /*** END OF SYSTEMJS CONFIG **/
 
 
-/**
- * create the namespace for the app
- * @type {{}}
- */
+// constant that defines the app namespace
 const utopiasoftware_app_namespace = 'app_package';
 
+/**
+ * create the namespace and base methods and properties for the app
+ * @type {{}}
+ */
 const utopiasoftware = {
     [utopiasoftware_app_namespace]: {}
 };
